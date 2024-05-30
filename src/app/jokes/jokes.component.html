@@ -1,0 +1,22 @@
+<div class="main">
+
+    <div class="header">
+        <h1>Random Joke</h1>
+        <button (click)="GenerateJokes()">>>></button>
+    </div>
+
+    @for(Joke of Jokes; track Joke){
+    <div class="joke-container">
+        <img src="https://api.chucknorris.io/img/chucknorris_logo_coloured_small@2x.png">
+        <p class="joke">{{Joke.value}}</p>
+        <p>Created: {{Joke.created_at}}</p>
+    </div>
+    }
+
+</div>
+
+
+
+
+
+

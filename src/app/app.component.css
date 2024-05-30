@@ -1,0 +1,33 @@
+.header{
+    margin: auto;
+    width: 20vw;
+    text-align: center;
+    padding: 2rem;
+    letter-spacing: .25rem;
+}
+
+.menu{
+    background-color: rgb(94, 183, 133);
+    padding: 0.5rem 0;
+}
+
+button{
+    padding: 0.5rem 0;
+    background-color: rgb(94, 183, 133);
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.divider{
+    border-right: solid rgb(66, 130, 94);
+}
+
+button:hover{
+    background-color: rgb(94, 187, 134);
+    cursor: pointer;
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+}
